@@ -2,11 +2,11 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hello!%20I'm%20Andrii%20👋&fontSize=70&fontAlignY=35&animation=twinkling&fontColor=ffffff" />
 </div>
 
-<h3 align="center">🚀 AI Engineer | Full-Stack Developer | Vibe Coder</h3>
+<h3 align="center">🚀 Full-Stack Developer | AI Integrations | Automation</h3>
 
 <div align="center">
   <p>
-    I am a passionate software engineer specializing in <b>AI integrations, scalable web applications, and robust backend systems</b>. I build premium, production-ready products with a focus on exceptional UI/UX, clean architecture, and modern tech stacks.
+    I am a software engineer specializing in <b>scalable web applications, backend systems, and practical integrations</b>. I build production-ready products with a focus on exceptional UI/UX, clean architecture, and modern tech stacks.
   </p>
 </div>
 
