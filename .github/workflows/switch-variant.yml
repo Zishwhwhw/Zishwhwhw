@@ -1,0 +1,43 @@
+name: Switch profile variant
+
+on:
+  workflow_dispatch:
+    inputs:
+      variant:
+        description: "Which README should the profile show?"
+        required: true
+        default: AB-kyoka-terminal
+        type: choice
+        options:
+          - AB-kyoka-terminal
+          - A-kyoka-suigetsu
+          - B-hogyoku-terminal
+
+jobs:
+  switch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Apply variant
+        run: |
+          set -euo pipefail
+          src=".github/variants/${{ inputs.variant }}.md"
+          test -f "$src" || { echo "::error::$src not found"; exit 1; }
+          cp "$src" README.md
+          sed -i -E 's/ \*\(активен\)\*//' .github/variants/README.md
+          sed -i -E "s#\[\`${{ inputs.variant }}\.md\`\]#[\`${{ inputs.variant }}.md\`] *(активен)*#" .github/variants/README.md
+
+      - name: Commit
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "Variant ${{ inputs.variant }} is already active — nothing to do."
+            exit 0
+          fi
+          git commit -am "Switch profile variant to ${{ inputs.variant }}"
+          git push

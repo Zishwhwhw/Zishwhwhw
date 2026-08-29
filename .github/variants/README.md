@@ -1,25 +1,30 @@
 # Варианты оформления профиля
 
-Активный README лежит в корне репозитория. Здесь — альтернативные версии.
-GitHub рендерит эти `.md` прямо здесь, так что можно просто кликнуть и посмотреть,
-как выглядит вариант, прежде чем его включать.
+Активный README лежит в корне репозитория. Здесь — все версии целиком.
+GitHub рендерит эти `.md` прямо на месте, так что можно кликнуть и посмотреть вариант
+живьём, прежде чем включать.
 
 | Вариант | Файл | Настроение |
 | :-- | :-- | :-- |
-| **A — Kyōka Suigetsu** | [`A-kyoka-suigetsu.md`](A-kyoka-suigetsu.md) | Кастомный анимированный SVG-баннер, гифки Айзена, Java-класс вместо «About me», сетка проектов «Эспада» |
-| **B — Hōgyoku Terminal** | [`B-hogyoku-terminal.md`](B-hogyoku-terminal.md) | Монохромный терминал: neofetch, `career.log`, `ls ./projects`. Минимум гифок — самый «взрослый» под рекрутёров |
-| **C — Soul Society** *(активен)* | [`C-soul-society.md`](C-soul-society.md) | Максимальный пафос: анимированная capsule-шапка, большие гифки, YAML-досье, шкалы силы, свёрнутый ростер Эспады |
+| **AB — Kyōka Terminal** *(активен)* | [`AB-kyoka-terminal.md`](AB-kyoka-terminal.md) | Совмещённый: баннер, гифки и сетка «Эспады» из A + neofetch, `career.log` и `./contact.sh` из B |
+| **A — Kyōka Suigetsu** | [`A-kyoka-suigetsu.md`](A-kyoka-suigetsu.md) | Java-класс вместо «About me», опыт простым блоком, без терминальной подачи |
+| **B — Hōgyoku Terminal** | [`B-hogyoku-terminal.md`](B-hogyoku-terminal.md) | Чистый терминал: минимум гифок, pin-карточки вместо карточек-описаний |
 
 ## Как переключить
 
+**Из браузера, за три клика** — вкладка [Actions → Switch profile variant](../../actions/workflows/switch-variant.yml) →
+`Run workflow` → выбрать вариант в выпадающем списке → `Run`.
+Работает и с телефона, терминал не нужен.
+
+**Из терминала:**
+
 ```bash
-git clone git@github.com:Zishwhwhw/Zishwhwhw.git && cd Zishwhwhw
-cp .github/variants/A-kyoka-suigetsu.md README.md   # или B-hogyoku-terminal.md
-git commit -am "switch profile variant" && git push
+./switch.sh          # список с выбором по номеру
+./switch.sh A        # включить вариант A сразу
 ```
 
-Текущий README при этом не теряется — он всегда лежит в истории git,
-и каждый вариант дополнительно лежит здесь отдельным файлом.
+Скрипт сам подменяет `README.md`, обновляет пометку «активен» в этой таблице,
+коммитит и пушит. Ничего не теряется: каждый вариант всегда лежит здесь отдельным файлом.
 
 ## Что откуда берётся
 
@@ -27,7 +32,7 @@ git commit -am "switch profile variant" && git push
 | :-- | :-- | :-- |
 | Шапка | `assets/banner.svg` | Самописный анимированный SVG, лежит в репозитории — не сломается |
 | Печатающийся текст | `readme-typing-svg.demolab.com` | ✅ работает |
-| Stats / top-langs / pin | `github-readme-stats.shion.dev` | Зеркало: официальный `…vercel.app` сейчас отдаёт 503 |
+| Stats / top-langs / pin | `github-readme-stats.shion.dev` | Зеркало: официальный `…vercel.app` отдаёт 503 |
 | Streak | `streak-stats.demolab.com` | Старый `…herokuapp.com` мёртв, не использовать |
 | Змейка | GitHub Action `Platane/snk` → ветка `output` | Генерируется раз в сутки, хостится в этом же репозитории |
 | Иконки стека | `skillicons.dev` | ✅ |
