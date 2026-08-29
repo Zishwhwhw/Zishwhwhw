@@ -1,233 +1,197 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Andrii Drymchenko" />
+<img src="./assets/banner.svg" width="100%" alt="Zishwhwhw" />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=A78BFA&center=true&vCenter=true&width=760&height=44&lines=%E7%A0%95%E3%81%91%E3%82%8D%E3%80%81%E9%8F%A1%E8%8A%B1%E6%B0%B4%E6%9C%88%20%E2%80%94%20Shatter%2C%20Ky%C5%8Dka%20Suigetsu.;Backend%20Developer%20%C2%B7%20Java%20%2F%20Spring%20Boot%20%C2%B7%20Python%20%2F%20FastAPI;Software%20Engineering%20%40%20UJD%20Cz%C4%99stochowa;Everything%20is%20going%20according%20to%20plan." alt="Typing SVG" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=900&color=F472B6&center=true&vCenter=true&width=780&height=44&lines=%E6%95%A3%E3%82%8C%E3%80%81%E5%8D%83%E6%9C%AC%E6%A1%9C%20%E2%80%94%20Scatter%2C%20Senbonzakura.;AI%20%2F%20Backend%20Engineer%20%C2%B7%20Python%20%C2%B7%20FastAPI;RAG%20pipelines%20%C2%B7%20LangChain%20%C2%B7%20vector%20search;A%20thousand%20blades%20look%20like%20petals%20from%20afar." alt="typing" />
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Zishwhwhw&style=for-the-badge&color=7C3AED&label=SOULS+REAPED" alt="views" />
-<a href="mailto:andrejdimcenko09@gmail.com"><img src="https://img.shields.io/badge/Email-1E1B2E?style=for-the-badge&logo=gmail&logoColor=A78BFA" alt="Email" /></a>
-<img src="https://img.shields.io/badge/Cz%C4%99stochowa%2C%20Poland-1E1B2E?style=for-the-badge&logo=googlemaps&logoColor=A78BFA" alt="Location" />
-<img src="https://img.shields.io/badge/Open%20to%20work-7C3AED?style=for-the-badge&logoColor=white" alt="Open to work" />
+<img src="https://komarev.com/ghpvc/?username=Zishwhwhw&style=for-the-badge&color=DB2777&label=PETALS+SCATTERED" alt="views" />
+<a href="mailto:andrejdimcenko09@gmail.com"><img src="https://img.shields.io/badge/Email-2A1220?style=for-the-badge&logo=gmail&logoColor=F9A8D4" alt="email" /></a>
+<img src="https://img.shields.io/badge/Częstochowa, Poland-2A1220?style=for-the-badge&logo=googlemaps&logoColor=F9A8D4" alt="location" />
+<img src="https://img.shields.io/badge/Open%20to%20work-DB2777?style=for-the-badge&logoColor=white" alt="open to work" />
 
-</div>
+<br/><br/>
 
-<br/>
+<img src="./assets/senbonzakura-bankai.gif" width="440" alt="Senbonzakura Kageyoshi" />
 
-<div align="center">
-  <img src="./assets/aizen-descend.gif" width="330" alt="Aizen" />
 </div>
 
 <blockquote align="center">
-<h3>「憧れは理解から最も遠い感情だよ」</h3>
-<i>"Admiration is the emotion furthest from understanding."</i><br/>
-<sub>— and that is exactly why I read the source instead of copy-pasting the snippet.</sub>
+<h3>「散れ、千本桜」</h3>
+<i>"Scatter, Senbonzakura."</i><br/>
+<sub>A thousand blades that look like petals from a distance —<br/>which is also a fair description of a well-decomposed service.</sub>
 </blockquote>
 
-<br/>
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="" /></div>
 
-## 🌑 `解号` — Release Command
+## 🌸 `解号` — Release Command
 
-```java
-public final class Andrii extends SoftwareEngineer {
+<img src="./assets/byakuya-release.gif" width="270" align="right" alt="Bankai" />
 
-    @Override
-    public void kaigo() {
-        System.out.println("崩玉 — Hōgyoku online.");
-    }
+```python
+class Zishwhwhw(Shinigami):
+    """千本桜景厳 — a thousand blades, one intent."""
 
-    static final String  UNIVERSITY = "Jan Długosz University in Częstochowa";
-    static final String  DEGREE     = "BSc Software Engineering (Informatyka), 2024–2028";
-    static final String  RANK       = "Junior Java Developer → Freelance Backend";
-    static final String[] CORE      = { "Java", "Spring Boot", "Python", "FastAPI", "PostgreSQL" };
-    static final String[] SPEAKS    = { "Ukrainian (native)", "Polish B2", "English B2", "Russian B2" };
-    static final boolean CLEAN_CODE = true;   // 崩玉 does not excuse bad architecture
-}
+    name       = "Andrii"
+    role       = "AI / Backend Engineer"
+    location   = "Częstochowa, Poland"
+    zanpakuto  = "FastAPI"
+    bankai     = "RAG pipelines that answer from the source, not from vibes"
+
+    core       = ["Python", "FastAPI", "LangChain", "Docker", "PostgreSQL"]
+    interests  = ["retrieval-augmented generation", "vector search", "LLM tooling"]
+    speaks     = ["Ukrainian", "English"]
+
+    def shikai(self) -> str:
+        return "散れ、千本桜"
 ```
 
-<br/>
+<br clear="all"/>
+
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="" /></div>
 
 ## ⚔️ `斬魄刀` — Zanpakutō (Tech Arsenal)
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=java,spring,py,fastapi,postgres,sqlite,docker,git,github,linux,bash,js,ts,html,css&perline=8" alt="stack" />
+<img src="https://skillicons.dev/icons?i=python,fastapi,flask,postgres,sqlite,docker,gcp,git,github,linux,bash,ts,nextjs,tailwind,html&perline=8" alt="stack" />
 
 </div>
 
 |  | 卍解 Bankai — daily driver | 始解 Shikai — solid | 修行中 Training |
 | :-- | :-- | :-- | :-- |
-| **Languages** | Java, Python | SQL, JavaScript | TypeScript |
-| **Backend** | Spring Boot, Hibernate/JPA | FastAPI, SQLAlchemy | Async architectures |
+| **Language** | Python | TypeScript, SQL | — |
+| **Backend** | FastAPI, Jinja2 | REST design, async | Background workers |
+| **AI / LLM** | LangChain, OpenAI, OpenRouter | FAISS, embeddings, RAG | Agents, evals |
 | **Data** | PostgreSQL | SQLite | Query optimisation |
-| **Infra** | Git, Linux (Bash) | Docker, Docker Compose | CI/CD |
-| **AI tooling** | Claude Code, GitHub Copilot | Gemini / OpenAI APIs | RAG pipelines |
+| **Infra** | Docker, Linux (Bash) | Google Cloud Run, Vercel | CI/CD |
 
-<br/>
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="" /></div>
 
-## 🗡️ `十刃` — Espada (Featured Projects)
+## 🗡️ `十刃` — Featured Work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### `Nº 0` — AI Educational Platform
-**FastAPI · SQLAlchemy · JWT · Docker**
+### `Nº 0` — CODEX AI
+**Python · FastAPI · LangChain · RAG**
 
-Backend for a gamified learning platform: database models, JWT auth, REST API, and a Docker Compose infrastructure for one-command deployment.
+Paste a GitHub URL, ask anything. Fetches any public repository, indexes the source with vector embeddings, and answers questions about the codebase in plain English — grounded in real code, not hallucinations. Self-hosted, Docker-ready, live on Cloud Run.
 
-[![repo](https://img.shields.io/badge/repository-1E1B2E?style=for-the-badge&logo=github&logoColor=A78BFA)](https://github.com/Zishwhwhw/ai-educational-platform)
-
-</td>
-<td width="50%" valign="top">
-
-### `Nº 1` — CRM Telegram Bot
-**Python · Telegram Bot API · Gemini**
-
-Lead management and broadcasting CRM. Gemini-powered smart auto-replies and voice transcription, Telegram Stars payments, usage dashboard.
-
-[![repo](https://img.shields.io/badge/repository-1E1B2E?style=for-the-badge&logo=github&logoColor=A78BFA)](https://github.com/Zishwhwhw/crm-telegram-bot)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### `Nº 2` — Maze Design Patterns
-**Java · GoF Patterns**
-
-A maze generator built as a showcase of Gang-of-Four design patterns — the architecture *is* the feature.
-
-[![repo](https://img.shields.io/badge/repository-1E1B2E?style=for-the-badge&logo=github&logoColor=A78BFA)](https://github.com/Zishwhwhw/java-maze-design-patterns)
+[![repo](https://img.shields.io/badge/repository-2A1220?style=for-the-badge&logo=github&logoColor=F9A8D4)](https://github.com/Zishwhwhw/GitHub-Code-Analyzer)
 
 </td>
 <td width="50%" valign="top">
 
-### `Nº 3` — RMI Student Registry
-**Java · Java RMI · Distributed**
+### `Nº 1` — FORGE
+**Python · FastAPI · OpenAI · Jinja2**
 
-A distributed student registry over Java RMI: remote interfaces, a registry server, and thin clients.
+An AI micro-website generator: give it a topic and a style, get a complete production-ready HTML site in seconds. Brutalist dark UI, LangChain under the hood, containerised end to end.
 
-[![repo](https://img.shields.io/badge/repository-1E1B2E?style=for-the-badge&logo=github&logoColor=A78BFA)](https://github.com/Zishwhwhw/java-rmi-student-registry)
+[![repo](https://img.shields.io/badge/repository-2A1220?style=for-the-badge&logo=github&logoColor=F9A8D4)](https://github.com/Zishwhwhw/Website-Generator)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### `Nº 4` — MVC Calculator
-**Java · Swing · MVC**
+### `Nº 2` — Planning with AI
+**Python · FAISS · OpenAI · JS**
 
-Scientific calculator with an expression parser and memory functions. MVC keeps the business logic fully decoupled from the GUI.
+Clone a repo, browse the tree in a VS Code-style explorer, and ask questions with streaming answers. FAISS vector store plus OpenAI embeddings keep every answer anchored to the actual source.
 
-[![repo](https://img.shields.io/badge/repository-1E1B2E?style=for-the-badge&logo=github&logoColor=A78BFA)](https://github.com/Zishwhwhw/java-mvc-calculator)
+[![repo](https://img.shields.io/badge/repository-2A1220?style=for-the-badge&logo=github&logoColor=F9A8D4)](https://github.com/Zishwhwhw/Planning-with-AI)
 
 </td>
 <td width="50%" valign="top">
 
-### `Nº 5` — OmniFit Tracker
-**React Native · Expo · TypeScript**
+### `Nº 3` — Telegram Shop Bot
+**Python · aiogram · Alembic · Docker**
 
-Cross-platform AI fitness tracker — the one place where I let TypeScript out of its cell.
+A full shopping bot for Telegram — catalogue, orders and migrations, packaged with Docker for a one-command start.
 
-[![repo](https://img.shields.io/badge/repository-1E1B2E?style=for-the-badge&logo=github&logoColor=A78BFA)](https://github.com/Zishwhwhw/omnifit-fitness-tracker)
+[![repo](https://img.shields.io/badge/repository-2A1220?style=for-the-badge&logo=github&logoColor=F9A8D4)](https://github.com/Zishwhwhw/telegram_shop_bot)
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>🔻 Nº 6–9 — the lower Espada (smaller experiments)</b></summary>
+<summary><b>🌸 <code>ls -la ./projects</code> — the full garden</b></summary>
 
-<br/>
+```console
+Zishwhwhw@senbonzakura ~ $ ls -la ./projects
 
-| Project | Stack | What it is |
-| :-- | :-- | :-- |
-| [**Randomizer Web App**](https://github.com/Zishwhwhw/randomizer-web-app) | JavaScript | Multi-tool randomizer with a 3D dice roller and wheel spinner |
-| [**3D Aquarium**](https://github.com/Zishwhwhw/3d-aquarium-simulation) | WebGL / HTML | Immersive underwater simulation in the browser |
-| [**Arduino 7-Segment**](https://github.com/Zishwhwhw/arduino-7segment-display) | C++ / Arduino | LED display controller — where the abstractions end and the voltage begins |
+drwxr-xr-x  GitHub-Code-Analyzer   python · fastapi · langchain · rag · docker
+drwxr-xr-x  Website-Generator      python · fastapi · openai · jinja2 · docker
+drwxr-xr-x  Planning-with-AI       python · faiss · openai · js
+drwxr-xr-x  workflow               python
+drwxr-xr-x  telegram_shop_bot      python · aiogram · alembic · docker
+drwxr-xr-x  cheat-sheet-creator    typescript · next.js · postgres
+drwxr-xr-x  data                   python
+drwxr-xr-x  ruffier                python
+drwxr-xr-x  hotline                python
+drwxr-xr-x  ping-pong              python
+drwxr-xr-x  arcade                 python
+```
 
 </details>
 
-<br/>
-
-## 📜 `過去` — Record
-
-```
-2026.03 ── 2026.08   Freelance Developer (self-employed)
-                     • Telegram CRM bot: Gemini auto-replies, voice transcription, Stars payments
-                     • Student Planner: Spring Boot + PostgreSQL + JavaFX desktop scheduler, JUnit tested
-
-2025.09 ── 2026.03   Box Please — Java Developer (Junior)
-                     • Joined as a junior on contract after a one-month internship
-                     • Developed and refactored core system classes under a Senior Java Developer
-                     • Wrote and optimised SQL queries for efficient database interaction
-                     • Implemented multithreaded data processing — measurable performance gains
-
-2024.10 ── 2028      Jan Długosz University in Częstochowa
-                     BSc Software Engineering (Informatyka)
-                     Java · Python · SQL · Software Testing · Algorithms & Data Structures
-```
-
-<br/>
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="" /></div>
 
 ## 📊 `霊圧` — Reiatsu (GitHub Stats)
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.shion.dev/api?username=Zishwhwhw&show_icons=true&hide_border=true&theme=midnight-purple&bg_color=0A0714&title_color=A78BFA&icon_color=7C3AED&text_color=E9E5F5" alt="stats" />
-<img height="165" src="https://streak-stats.demolab.com/?user=Zishwhwhw&hide_border=true&theme=midnight-purple&background=0A0714&ring=A78BFA&fire=7C3AED&currStreakLabel=A78BFA" alt="streak" />
+<img height="165" src="https://github-readme-stats.shion.dev/api?username=Zishwhwhw&show_icons=true&hide_border=true&theme=midnight-purple&bg_color=140A18&title_color=F472B6&icon_color=DB2777&text_color=FCE7F3" alt="stats" />
+<img height="165" src="https://streak-stats.demolab.com/?user=Zishwhwhw&hide_border=true&theme=midnight-purple&background=140A18&ring=F472B6&fire=DB2777&currStreakLabel=F472B6" alt="streak" />
 
 <br/>
 
-<img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Zishwhwhw&layout=compact&hide_border=true&theme=midnight-purple&bg_color=0A0714&title_color=A78BFA&text_color=E9E5F5&langs_count=8" alt="top langs" />
+<img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Zishwhwhw&layout=compact&hide_border=true&theme=midnight-purple&bg_color=140A18&title_color=F472B6&text_color=FCE7F3&langs_count=8" alt="top langs" />
 <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Zishwhwhw&theme=github_dark&utcOffset=2" alt="productive time" />
 
-</div>
-
 <br/>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Zishwhwhw/Zishwhwhw/output/snake.svg" alt="contribution snake" />
-  <br/>
-  <sub><i>虚 — the Hollow devours the contribution grid, once a day.</i></sub>
-</div>
-
+<img src="https://raw.githubusercontent.com/Zishwhwhw/Zishwhwhw/output/snake.svg" alt="contribution snake" />
 <br/>
-
-## 🌕 `鏡花水月` — Contact
-
-<div align="center">
-
-<img src="./assets/aizen-smirk.gif" width="260" align="right" alt="Aizen" />
-
-<div align="left">
-
-**Open to Junior / Intern backend roles** — Java (Spring Boot) or Python (FastAPI), Poland or remote.
-
-- 📮 **Email** — [andrejdimcenko09@gmail.com](mailto:andrejdimcenko09@gmail.com)
-- 📍 **Based in** — Częstochowa, Poland
-- 🗣 **Languages** — Ukrainian (native) · Polish B2 · English B2 · Russian B2
-- 📄 **CV** — available on request
+<sub><i>虚 — the Hollow devours the contribution grid, once a day.</i></sub>
 
 </div>
-</div>
+
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="" /></div>
+
+## 🌕 `散華` — Contact
+
+<img src="./assets/byakuya-cold.gif" width="260" align="right" alt="Byakuya" />
+
+```console
+Zishwhwhw@senbonzakura ~ $ ./contact.sh
+
+  email ....... andrejdimcenko09@gmail.com
+  telegram .... @your_telegram
+  location .... Częstochowa, Poland
+  status ...... open to AI / backend roles, remote
+
+Zishwhwhw@senbonzakura ~ $ echo "散れ、千本桜"
+散れ、千本桜
+Zishwhwhw@senbonzakura ~ $ _
+```
 
 <br clear="all"/>
 
 <div align="center">
 
-<img src="./assets/aizen-dark.gif" width="150" alt="Aizen" />
+<img src="./assets/byakuya-petals.gif" width="300" alt="Byakuya" />
 
-<h4>「最初から、全ては私の計画通りだ」</h4>
-<i>"From the very beginning — all of it went according to my plan."</i><br/>
-<sub>Except the first deploy. The first deploy never goes according to plan.</sub>
+<h4>「花が散るのを、誰も止められない」</h4>
+<i>"No one can stop the blossoms from falling."</i><br/>
+<sub>Ship it. The petals were always going to scatter.</sub>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0714,50:6D28D9,100:0A0714&height=110&section=footer" width="100%" alt="footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:140A18,50:BE185D,100:140A18&height=120&section=footer" width="100%" alt="footer" />
 
 </div>
