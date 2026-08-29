@@ -6,20 +6,20 @@ GitHub рендерит эти `.md` прямо здесь, так что мож
 
 | Вариант | Файл | Настроение |
 | :-- | :-- | :-- |
-| **A — Kyōka Suigetsu** *(активен)* | [`../../README.md`](../../README.md) | Кастомный анимированный SVG-баннер, гифки Айзена, Java-класс вместо «About me», сетка проектов «Эспада» |
-| **B — Hōgyoku Terminal** | [`B-hogyoku-terminal.md`](B-hogyoku-terminal.md) | Монохромный терминал: neofetch, `career.log`, `ls ./projects`. Минимум гифок — самый «взрослый» под рекрутёров |
+| **A — Kyōka Suigetsu** | [`A-kyoka-suigetsu.md`](A-kyoka-suigetsu.md) | Кастомный анимированный SVG-баннер, гифки Айзена, Java-класс вместо «About me», сетка проектов «Эспада» |
+| **B — Hōgyoku Terminal** *(активен)* | [`B-hogyoku-terminal.md`](B-hogyoku-terminal.md) | Монохромный терминал: neofetch, `career.log`, `ls ./projects`. Минимум гифок — самый «взрослый» под рекрутёров |
 | **C — Soul Society** | [`C-soul-society.md`](C-soul-society.md) | Максимальный пафос: анимированная capsule-шапка, большие гифки, YAML-досье, шкалы силы, свёрнутый ростер Эспады |
 
 ## Как переключить
 
 ```bash
 git clone git@github.com:Zishwhwhw/Zishwhwhw.git && cd Zishwhwhw
-cp .github/variants/B-hogyoku-terminal.md README.md   # или C-soul-society.md
+cp .github/variants/A-kyoka-suigetsu.md README.md   # или C-soul-society.md
 git commit -am "switch profile variant" && git push
 ```
 
 Текущий README при этом не теряется — он всегда лежит в истории git,
-а вариант A дополнительно сохранён как [`A-kyoka-suigetsu.md`](A-kyoka-suigetsu.md).
+и каждый вариант дополнительно лежит здесь отдельным файлом.
 
 ## Что откуда берётся
 
