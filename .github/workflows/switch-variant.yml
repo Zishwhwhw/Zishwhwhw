@@ -27,8 +27,7 @@ jobs:
           src=".github/variants/${{ inputs.variant }}.md"
           test -f "$src" || { echo "::error::$src not found"; exit 1; }
           cp "$src" README.md
-          sed -i -E 's/ \*\(активен\)\*//' .github/variants/README.md
-          sed -i -E "s#\[\`${{ inputs.variant }}\.md\`\]#[\`${{ inputs.variant }}.md\`] *(активен)*#" .github/variants/README.md
+          python3 .github/mark-active.py "${{ inputs.variant }}"
 
       - name: Commit
         run: |
