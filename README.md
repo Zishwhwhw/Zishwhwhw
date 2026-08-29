@@ -2,7 +2,9 @@
 
 <img src="./assets/banner.svg" width="100%" alt="Andrii Drymchenko" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2800&pause=1000&color=A78BFA&center=true&vCenter=true&width=700&height=38&lines=root%40hueco-mundo%3A~%24%20whoami;%3E%20backend%20engineer%20%C2%B7%20java%20%2F%20spring%20boot;%3E%20python%20%2F%20fastapi%20%C2%B7%20postgres%20%C2%B7%20docker;%3E%20%22all%20according%20to%20plan%22" alt="typing" />
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=A78BFA&center=true&vCenter=true&width=760&height=44&lines=%E7%A0%95%E3%81%91%E3%82%8D%E3%80%81%E9%8F%A1%E8%8A%B1%E6%B0%B4%E6%9C%88%20%E2%80%94%20Shatter%2C%20Ky%C5%8Dka%20Suigetsu.;Backend%20Developer%20%C2%B7%20Java%20%2F%20Spring%20Boot%20%C2%B7%20Python%20%2F%20FastAPI;Software%20Engineering%20%40%20UJD%20Cz%C4%99stochowa;Everything%20is%20going%20according%20to%20plan." alt="Typing SVG" />
+</a>
 
 <br/>
 
@@ -11,10 +13,12 @@
 <img src="https://img.shields.io/badge/Cz%C4%99stochowa%2C%20Poland-1E1B2E?style=for-the-badge&logo=googlemaps&logoColor=A78BFA" alt="Location" />
 <img src="https://img.shields.io/badge/Open%20to%20work-7C3AED?style=for-the-badge&logoColor=white" alt="Open to work" />
 
-<br/><br/>
+</div>
 
-<img src="./assets/aizen-descend.gif" width="320" alt="Aizen" />
+<br/>
 
+<div align="center">
+  <img src="./assets/aizen-descend.gif" width="330" alt="Aizen" />
 </div>
 
 <blockquote align="center">
@@ -23,28 +27,28 @@
 <sub>— and that is exactly why I read the source instead of copy-pasting the snippet.</sub>
 </blockquote>
 
----
+<br/>
 
-```console
-andrii@hogyoku ~ $ neofetch
+## 🌑 `解号` — Release Command
 
-        ▄▄▄▄▄▄▄            andrii@hogyoku
-     ▄█▀▀     ▀▀█▄         ──────────────────────────────────────────────
-   ▄█▀    ▄▄▄    ▀█▄       Name ......... Andrii Drymchenko
-  █▀   ▄█▀▀▀▀▀█▄   ▀█      Role ......... Backend Developer (Java / Python)
- █    █▀   崩   ▀█    █    Rank ......... ex-Junior Java Dev @ Box Please
- █    █▄   玉   ▄█    █    Study ........ BSc Software Engineering, UJD Częstochowa
-  █▄   ▀█▄▄▄▄▄█▀   ▄█      Base ......... Częstochowa, Poland
-   ▀█▄    ▀▀▀    ▄█▀       Shell ........ zsh + Docker + Linux
-     ▀█▄▄     ▄▄█▀         Editor ....... IntelliJ IDEA / Claude Code
-        ▀▀▀▀▀▀▀            Uptime ....... 2024 → present
-                           Zanpakutō .... Spring Boot
-                           Bankai ....... clean architecture, GoF patterns
-                           Languages .... uk (native) · pl B2 · en B2 · ru B2
-                           Status ....... open to junior backend roles
+```java
+public final class Andrii extends SoftwareEngineer {
+
+    @Override
+    public void kaigo() {
+        System.out.println("崩玉 — Hōgyoku online.");
+    }
+
+    static final String  UNIVERSITY = "Jan Długosz University in Częstochowa";
+    static final String  DEGREE     = "BSc Software Engineering (Informatyka), 2024–2028";
+    static final String  RANK       = "Junior Java Developer → Freelance Backend";
+    static final String[] CORE      = { "Java", "Spring Boot", "Python", "FastAPI", "PostgreSQL" };
+    static final String[] SPEAKS    = { "Ukrainian (native)", "Polish B2", "English B2", "Russian B2" };
+    static final boolean CLEAN_CODE = true;   // 崩玉 does not excuse bad architecture
+}
 ```
 
----
+<br/>
 
 ## ⚔️ `斬魄刀` — Zanpakutō (Tech Arsenal)
 
@@ -62,7 +66,7 @@ andrii@hogyoku ~ $ neofetch
 | **Infra** | Git, Linux (Bash) | Docker, Docker Compose | CI/CD |
 | **AI tooling** | Claude Code, GitHub Copilot | Gemini / OpenAI APIs | RAG pipelines |
 
----
+<br/>
 
 ## 🗡️ `十刃` — Espada (Featured Projects)
 
@@ -136,46 +140,39 @@ Cross-platform AI fitness tracker — the one place where I let TypeScript out o
 </table>
 
 <details>
-<summary><b>🔻 <code>ls -la ./projects</code> — the full roster</b></summary>
+<summary><b>🔻 Nº 6–9 — the lower Espada (smaller experiments)</b></summary>
 
-```console
-andrii@hogyoku ~ $ ls -la ./projects
+<br/>
 
-drwxr-xr-x  ai-educational-platform    fastapi · sqlalchemy · jwt · docker
-drwxr-xr-x  crm-telegram-bot           python · telegram bot api · gemini
-drwxr-xr-x  java-maze-design-patterns  java · gang-of-four patterns
-drwxr-xr-x  java-rmi-student-registry  java · rmi · distributed
-drwxr-xr-x  java-mvc-calculator        java · swing · mvc
-drwxr-xr-x  omnifit-fitness-tracker    react native · expo · typescript
-drwxr-xr-x  randomizer-web-app         javascript · 3d dice & wheel
-drwxr-xr-x  3d-aquarium-simulation     webgl · html
-drwxr-xr-x  arduino-7segment-display   c++ · arduino
-```
+| Project | Stack | What it is |
+| :-- | :-- | :-- |
+| [**Randomizer Web App**](https://github.com/Zishwhwhw/randomizer-web-app) | JavaScript | Multi-tool randomizer with a 3D dice roller and wheel spinner |
+| [**3D Aquarium**](https://github.com/Zishwhwhw/3d-aquarium-simulation) | WebGL / HTML | Immersive underwater simulation in the browser |
+| [**Arduino 7-Segment**](https://github.com/Zishwhwhw/arduino-7segment-display) | C++ / Arduino | LED display controller — where the abstractions end and the voltage begins |
 
 </details>
 
----
+<br/>
 
 ## 📜 `過去` — Record
 
-```console
-andrii@hogyoku ~ $ cat career.log
+```
+2026.03 ── 2026.08   Freelance Developer (self-employed)
+                     • Telegram CRM bot: Gemini auto-replies, voice transcription, Stars payments
+                     • Student Planner: Spring Boot + PostgreSQL + JavaFX desktop scheduler, JUnit tested
 
-[2026-03 → 2026-08]  freelance/self-employed
-  ├─ telegram-crm-bot ...... python · gemini api · telegram stars · usage dashboard
-  └─ student-planner ....... java · spring boot · postgres · javafx · junit
+2025.09 ── 2026.03   Box Please — Java Developer (Junior)
+                     • Joined as a junior on contract after a one-month internship
+                     • Developed and refactored core system classes under a Senior Java Developer
+                     • Wrote and optimised SQL queries for efficient database interaction
+                     • Implemented multithreaded data processing — measurable performance gains
 
-[2025-09 → 2026-03]  box-please :: java developer (junior)
-  ├─ junior contract after a one-month internship
-  ├─ developed + refactored core system classes (mentored by a senior)
-  ├─ wrote and optimised SQL for efficient DB interaction
-  └─ multithreaded data processing → measurable perf gains
-
-[2024-10 → 2028]     jan-dlugosz-university :: bsc software engineering
-  └─ java · python · sql · software testing · algorithms & data structures
+2024.10 ── 2028      Jan Długosz University in Częstochowa
+                     BSc Software Engineering (Informatyka)
+                     Java · Python · SQL · Software Testing · Algorithms & Data Structures
 ```
 
----
+<br/>
 
 ## 📊 `霊圧` — Reiatsu (GitHub Stats)
 
@@ -189,32 +186,35 @@ andrii@hogyoku ~ $ cat career.log
 <img height="165" src="https://github-readme-stats.shion.dev/api/top-langs/?username=Zishwhwhw&layout=compact&hide_border=true&theme=midnight-purple&bg_color=0A0714&title_color=A78BFA&text_color=E9E5F5&langs_count=8" alt="top langs" />
 <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Zishwhwhw&theme=github_dark&utcOffset=2" alt="productive time" />
 
-<br/>
-
-<img src="https://raw.githubusercontent.com/Zishwhwhw/Zishwhwhw/output/snake.svg" alt="contribution snake" />
-<br/>
-<sub><i>虚 — the Hollow devours the contribution grid, once a day.</i></sub>
-
 </div>
 
----
+<br/>
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Zishwhwhw/Zishwhwhw/output/snake.svg" alt="contribution snake" />
+  <br/>
+  <sub><i>虚 — the Hollow devours the contribution grid, once a day.</i></sub>
+</div>
+
+<br/>
 
 ## 🌕 `鏡花水月` — Contact
 
-<img src="./assets/aizen-smirk.gif" width="250" align="right" alt="Aizen" />
+<div align="center">
 
-```console
-andrii@hogyoku ~ $ ./contact.sh
+<img src="./assets/aizen-smirk.gif" width="260" align="right" alt="Aizen" />
 
-  email ....... andrejdimcenko09@gmail.com
-  location .... Częstochowa, Poland
-  status ...... open to junior backend roles (Java / Python), PL or remote
-  cv .......... on request
+<div align="left">
 
-andrii@hogyoku ~ $ echo "砕けろ、鏡花水月"
-砕けろ、鏡花水月
-andrii@hogyoku ~ $ _
-```
+**Open to Junior / Intern backend roles** — Java (Spring Boot) or Python (FastAPI), Poland or remote.
+
+- 📮 **Email** — [andrejdimcenko09@gmail.com](mailto:andrejdimcenko09@gmail.com)
+- 📍 **Based in** — Częstochowa, Poland
+- 🗣 **Languages** — Ukrainian (native) · Polish B2 · English B2 · Russian B2
+- 📄 **CV** — available on request
+
+</div>
+</div>
 
 <br clear="all"/>
 

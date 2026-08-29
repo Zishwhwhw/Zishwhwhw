@@ -6,8 +6,8 @@ GitHub рендерит эти `.md` прямо на месте, так что �
 
 | Вариант | Файл | Настроение |
 | :-- | :-- | :-- |
-| **AB — Kyōka Terminal** | [`AB-kyoka-terminal.md`](AB-kyoka-terminal.md) *(активен)* | Совмещённый: баннер, гифки и сетка «Эспады» из A + neofetch, `career.log` и `./contact.sh` из B |
-| **A — Kyōka Suigetsu** | [`A-kyoka-suigetsu.md`](A-kyoka-suigetsu.md) | Java-класс вместо «About me», опыт простым блоком, без терминальной подачи |
+| **AB — Kyōka Terminal** | [`AB-kyoka-terminal.md`](AB-kyoka-terminal.md) | Совмещённый: баннер, гифки и сетка «Эспады» из A + neofetch, `career.log` и `./contact.sh` из B |
+| **A — Kyōka Suigetsu** | [`A-kyoka-suigetsu.md`](A-kyoka-suigetsu.md) *(активен)* | Java-класс вместо «About me», опыт простым блоком, без терминальной подачи |
 | **B — Hōgyoku Terminal** | [`B-hogyoku-terminal.md`](B-hogyoku-terminal.md) | Чистый терминал: минимум гифок, pin-карточки вместо карточек-описаний |
 
 ## Как переключить
